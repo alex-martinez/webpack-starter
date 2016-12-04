@@ -1,0 +1,17 @@
+@import "bootstrap-custom-variables";
+@import "bootstrap";
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+.greet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
